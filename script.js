@@ -7,7 +7,7 @@ function mapLetters(string) {
 			obj[string[i]] = [];
 		}
 
-		obj.string[i].push(i);
+		obj[string[i]].push(i);
 	}
 
 	return obj;
