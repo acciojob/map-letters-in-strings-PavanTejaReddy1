@@ -1,5 +1,7 @@
 
 function mapLetters(string) {
+	if (!string) return {};
+	
 	let obj = {};
 
 	for(let i=0; i<string.length; i++) {
